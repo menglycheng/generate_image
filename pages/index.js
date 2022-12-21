@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-[#0a0d14]">
       <Head>
-        <title>Create Next App</title>
+        <title>SmartAi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

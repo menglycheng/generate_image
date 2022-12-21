@@ -5,11 +5,6 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
-// export default async function handler(req, res) {
-
-//   console.log(response);
-//   res.status(200).json({ response: "hello" });
-// }
 export default async function handler(req, res) {
   const response = await openai.createImage({
     prompt: req.body.text,
